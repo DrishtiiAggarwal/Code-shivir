@@ -1,0 +1,55 @@
+/* FaqsPage.css */
+.faqs-page {
+  padding: 100px;
+  background-color: white;
+  margin-right:80px;
+  margin-left: 40px;
+}
+
+.faqs-page h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.faqs-page p {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #504e4e;
+}
+
+
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.faq-box {
+  background-color: #c2d1ef;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.faq-box.expanded {
+  background-color: #e9effb ;
+}
+
+.question {
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.3rem
+}
+
+.answer {
+  margin-top: 10px;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+}

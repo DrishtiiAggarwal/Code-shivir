@@ -1,0 +1,37 @@
+/* CurriculumPage.css */
+.curriculum-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.curriculum-page h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family:sans-serif;
+}
+
+.curriculum-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.curriculum-item {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f1d7;
+  text-align: left;
+}
+
+.curriculum-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.curriculum-item p {
+  font-size: 1rem;
+}

@@ -1,0 +1,46 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 12px;
+  color: black;
+}
+
+.navbar-logo {
+  margin-left: 80px;
+  font-family: sans-serif;
+  flex: 1;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin-right: 60px;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 40px;
+  font-family: sans-serif;
+}
+
+.navbar-item a {
+  color: #292929;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.navbar-enroll button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 10rem;
+  margin-right: 20px;
+}
